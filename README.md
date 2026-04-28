@@ -78,3 +78,6 @@ Test 2 Failed - Inifinite Loop Found
 
 Prompt 6 - Fix the inifinite loop in test 2 and run rest of tests
 RATE LIMIT REACHED - SUCCESS - COMMIT
+
+Prompt 7: Frequently, an "L" or "J" piece turn into a "T" piece when rotating. Troubleshoot.
+SUCCESS - COMMIT

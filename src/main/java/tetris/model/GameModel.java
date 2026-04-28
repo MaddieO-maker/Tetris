@@ -16,7 +16,7 @@ public class GameModel {
     private Tetromino currentPiece;
     private Tetromino nextPiece;
     private int score;
-    private int pointsToWin = 1000;
+    private int pointsToWin = 500;
     private GameState gameState;
     private Random random;
     
