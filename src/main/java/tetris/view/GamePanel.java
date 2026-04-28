@@ -27,7 +27,7 @@ public class GamePanel extends JPanel implements MouseListener {
     
     public GamePanel(GameModel gameModel) {
         this.gameModel = gameModel;
-        setPreferredSize(new Dimension(500, 550));
+        setPreferredSize(new Dimension(550, 650));
         setBackground(BACKGROUND_COLOR);
         
         // Listen to game model changes
@@ -255,3 +255,4 @@ public class GamePanel extends JPanel implements MouseListener {
     
     @Override
     public void mouseExited(MouseEvent e) {}
+}

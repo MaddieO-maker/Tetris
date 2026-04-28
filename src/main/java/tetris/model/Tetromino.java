@@ -99,6 +99,13 @@ public class Tetromino {
     }
     
     /**
+     * Rotate the piece by 90 degrees.
+     */
+    public void rotatePiece() {
+        this.rotation = (this.rotation + 1) % 4;
+    }
+    
+    /**
      * Get the blocks that make up this piece at current position/rotation.
      */
     public Block[] getBlocks() {

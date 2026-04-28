@@ -63,3 +63,18 @@ Should each of the 7 standard Tetris pieces (I, O, T, S, Z, J, L) have different
 Any other visual styling preferences (grid background color, piece borders, animation effects)?
 
 Answer 8: Eash Tetris shape should be a different color and be consistent by shape (I, O, T, S, Z, J, L). Background should be black with dark gray grid lines. Falling piece should be glowing until it is placed.
+
+Prompt 2: Have pieces fall at half the current speed.
+SUCCESS
+
+Prompt 3: Bottom row of grid is falling off the screen. Edit so the screen is a little bigger to compensate for the size of the grid.
+SUCCESS
+
+Prompt 4: Have pieces fall slower still.
+SUCCESS
+
+Prompt 5: Create a ModelTester.java file with the main method. It should create a GameModel, call its methods directly, and print Pass or Fail for each check. Write tests for these behaviors: Players cannot move pieces beyond the grids boundaries, Score consistently moves down when rows are cleared, when multiple rows are cleared at once players get more points, and the original shape of the piece doesn't change when rotating.
+Test 2 Failed - Inifinite Loop Found
+
+Prompt 6 - Fix the inifinite loop in test 2 and run rest of tests
+RATE LIMIT REACHED

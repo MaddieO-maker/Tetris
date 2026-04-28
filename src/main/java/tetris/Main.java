@@ -1,6 +1,7 @@
 package tetris;
 
 import javax.swing.*;
+import tetris.view.TetrisGUI;
 
 /**
  * Entry point for the Tetris game.

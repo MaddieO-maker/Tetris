@@ -43,8 +43,8 @@ public class TetrisGUI extends JPanel {
      * Start the game loop timer.
      */
     private void startGameLoop() {
-        // Game piece gravity timer
-        Timer gravityTimer = new Timer(100, e -> {
+        // Game piece gravity timer (400ms = quarter speed)
+        Timer gravityTimer = new Timer(400, e -> {
             if (gameModel.getGameState() == GameModel.GameState.PLAYING) {
                 gameModel.movePieceDown();
             }
