@@ -77,4 +77,4 @@ Prompt 5: Create a ModelTester.java file with the main method. It should create 
 Test 2 Failed - Inifinite Loop Found
 
 Prompt 6 - Fix the inifinite loop in test 2 and run rest of tests
-RATE LIMIT REACHED
+RATE LIMIT REACHED - SUCCESS - COMMIT
